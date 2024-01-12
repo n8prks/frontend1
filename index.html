@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- this is the code for the first website that deals with divs and
+        flex.grow.  I used a pic of a sunset for the image.  This excercise
+        focuses on website layout. -->
+        <title>The Project</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/png" sizes="36x36" href="favicon_v2\android-icon-36x36.png">
+        <meta name="keywords" content="Bicycle, Indiana Jones, Energy">
+        <meta name="description" content="this website is for Nathan">
+        <script src="\\wsl.localhost\Ubuntu\home\n8\Nana_Projects\Frontend1\appp.js"></script>
+
+
+    </head>
+
+    <body>
+
+        <div id="Header-Wrapper">
+            <header>
+                <div id="logo-search-container">
+                    <img id="logo-img" src="\\wsl.localhost\Ubuntu\home\n8\Nana_Projects\Frontend1\sq_avy.png"/>
+                    <input type = "text" placeholder="Search . . ."/>
+                </div>
+                <button onclick="handleCreatePost()">Create Post</button>
+            </header>>
+        </div>
+
+        <div id="post-form-container">
+            <form>
+                <label for="Title"><b>Title</b></label>
+                <input name="Title" type="text" placeholder="Enter title" required>
+                <label><b>Description</b></label>
+                <input type="text" placeholder="Enter description">
+                <label><b>Post</b></label>
+                <textarea type="text" placeholder="Your Post"></textarea>
+                <button id="hideButton" onclick="hidePostForm()">Hide Form</button>
+                <button id="saveButton">Save Form</button>
+                <input type="email" placeholder="email address">
+                <input type="password" placeholder="password">
+            </form>
+
+        </div>
+
+
+
+        <div id="Main-section-container">
+            <article>
+                <img id="Sunset1" src = "\\wsl.localhost\Ubuntu\home\n8\Nana_Projects\Frontend1\Ocean-Sunset-Images.jpg">
+                <div>
+                    <h1>Welcome to the Project!</h1>
+                    <p class = "article-info"><i>Written by: Nathan</i></p>
+                    <p class = "article-info"><i>Date: 2023.12.15</i></p>
+                    <p>This is a project that helped train me how to write front end code.  The training involved
+                        creating a user form that allowed users to create a post, add basic information, and then
+                        either save or cancel the form.</p>
+                </div>
+
+                <div>
+                    <p><b>This is a paragraph heading in bold</b></p>
+                    <p>I can write a new paragraph here and people can read things that I've written here.
+                        For example, I went out to dinner last night with my parents who were visiting from out
+                        of state.
+                    </p>
+                    <h4>These are the things that we ate at dinner in the form of a ul:</h4>
+
+                    <ul>
+                        <li>Chicken Picata</li>
+                        <li>Rigatoni D Pasta</li>
+                        <li>Salmon in a lemon sauce</li>
+                        <li>Lasagna</li>
+                    </ul>
+                </div>
+            </article>
+
+            <div id="News">
+                <div>
+                    <h2>Activities during the Visit</h2>
+
+                    <p>While my parents were here, we visited the Winchester Mystery Mansion in
+                        San Jose, California.  Can you find it on the map using the link below?</p>
+                    <a href = "https://www.google.com/maps">click to see map</a>
+                </div>
+
+                <div>
+                    <h2>A Day in Carmel</h2>
+                    <p>One day during my parents visit, we drove to Carmel and walked Ocean Avenue.
+                        We also took a walking tour of the Fairy Houses.  Also, we talked about a new
+                        bicycle that I like.  It is linked below.
+                    </p>
+                    <a href = "https://www.cervelo.com/en-US/bikes/s5">click to see the bike</a>
+                    <p>This is some more information for the website</p>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p><i>Nathan Parks - 2023</i></p>
+        </footer>
+
+    </body>
+</html>

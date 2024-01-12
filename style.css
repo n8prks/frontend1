@@ -1,0 +1,136 @@
+    body {
+        background-color: #c9dce6;
+        margin: 0
+    }
+
+    a {
+        color: #230de9;
+        font-size: 15px;
+    }
+
+    /*div{
+        margin: 5px;
+        border: 1px solid black
+    }*/
+
+    #logo-img {
+        width: 40px;
+        border-radius: 30px;
+
+    }
+    #Sunset1{
+        width: 100%;
+
+    }
+    .article-info {
+        color: orange;
+    }
+
+    #Main-section-container {
+        display: flex;
+        width: 80%;
+        margin: 15px auto;
+    }
+    #Header-Wrapper{
+        background-color: white;
+        height: 50px;
+    }
+
+    header{
+        display: flex;
+        background-color: white;
+        height: 50px;
+        width: 80%;
+        margin: auto;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #logo-search-container{
+        display: flex;
+        align-items: center;
+    }
+
+    header input{
+        margin-left: 30px;
+        background-color: white;
+        width: 250px;
+        font-size: 18;
+        padding: 10px;
+        border-radius: 10px;
+        border: 1px solid lightgray;
+
+    }
+    article{
+        width: 80%;
+        background-color: white;
+
+
+    }
+    article div{
+        padding: 0px 15px;
+        margin-left: 0px;
+        border: none
+    }
+    #News {
+        /*background-color: white;*/
+        margin-left: 15px;
+        width: 30%;
+    }
+    #News div{
+        background-color: white;
+        padding: 15px 30px 30px 30px;
+        margin-bottom: 15px;
+    }
+    footer{
+        background-color:white;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+
+    }
+    button{
+
+    font-size: 15px;
+    padding: 10 20;
+    background-color: white;
+    color: blue;
+    border-radius: 5px;
+    border: 1px solid black;
+    height: 40px;
+
+/* display: flex; */
+
+align-items: center;
+}
+
+    #hideButton{
+        font-size: 15px;
+        padding: 20;
+        background-color: white;
+        color: darkred;
+        border-radius: 5px;
+        border: 1px solid darkred;
+
+    }
+
+    #saveButton{
+        color: darkcyan;
+        border: 1px solid darkcyan;
+    }
+
+    button:hover{
+        cursor: pointer;
+    }
+    #post-form-container{
+        margin-left: 10px;
+        max-width: 300px;
+        padding: 10px;
+        margin: auto;
+        display: none;
+    }
+    #post-form-container input, textarea{
+        width: 100%;
+        margin: 5px 0 10px 0;
+        padding: 10px;
+    }
